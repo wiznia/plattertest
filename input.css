@@ -1,9 +1,5 @@
 @import 'tailwindcss';
 
-:root {
-  interpolate-size: allow-keywords;
-}
-
 @layer utilities {
   .scrollbar::-webkit-scrollbar {
     height: 4px;

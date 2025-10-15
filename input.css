@@ -19,4 +19,10 @@
   .scrollbar:hover::-webkit-scrollbar {
     height: 6px;
   }
+  .hidden-posts {
+    transition: height 500ms ease;
+    &.expanded {
+      height: calc-size(auto, size);
+    }
+  }
 }
